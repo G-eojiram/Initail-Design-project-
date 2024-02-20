@@ -1,0 +1,18 @@
+.sublist{
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+.sublistdrop{
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    box-shadow: 0 0 10 gray;
+    border: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
